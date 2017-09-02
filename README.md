@@ -3,7 +3,8 @@
 This is my learning-record and codes.
 
 
-##Note
+## Note
+
 **ch.05**  
 1. How to choose image format:  
 lots of colors: JPEG or PNG;  
@@ -13,6 +14,6 @@ transparency: PNG, GIF(limited);
 
 **ch.06 industry standard HTML**  
 1. HTML5 doctype: <!doctype html>  
-2. Adding a meta tag to specify the character encoding (after HTML5): <meta charset="utf-8">  
+2. Adding a meta tag to specify the character encoding (after HTML5): < meta charset="utf-8" >  
 3. W3C validator: http://validator.w3.org  
 
