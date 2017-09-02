@@ -24,7 +24,7 @@
 	 </li>
 	 
 	 <li>
-	   <h2><a href="images/mocha_latte.jpg" title="Have a look at its picture">Mocha Caffe Latte</a>, $2.35</h2>
+	   <h2><a href="images/mocha_latte.jpg" title="Have a look at its picture" alt="Mocha Caffe Latte">Mocha Caffe Latte</a>, $2.35</h2>
 	   <p>Espresso, steamed milk and chocolate syrup.</p>
 	 </li>
 	 
@@ -40,7 +40,7 @@
 	</ul>
 
    <p>
-		<a href="about/mission.html" title="Read Starbuzz Coffee's mission">Our Mission</a><br>
+		Read <a href="about/mission.html" title="Read Starbuzz Coffee's mission">Our Mission</a><br>
       Read the <a href="http://wickedlysmart.com/buzz/index.html#Coffee" target="_blank" title="Read all about caffeine on the Buzz">Coffeine Buzz</a>.
    </p>
 </body>
