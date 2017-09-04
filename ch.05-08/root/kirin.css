@@ -13,19 +13,15 @@
 }
 
 body{ 
-    background-color: black;
-    color:lightseagreen;
+    background-color: #000000; /*black*/
+    color:#20B2AA; /*lightseagreen*/
     font-family: "Amaranth", Arial, sans-serif;
     font-size: 18px;
 }
 
 h1{
-    border-bottom: 1px ridge white;
+    border-bottom: 5px double #FFFFFF; /*5px-boder-width white double-line*/
     font-size: 120%; /*relative to inherited font-size from its parent element: body*/
-}
-
-p{
-    color:lightseagreen;
 }
 
 /*class selector*/
@@ -37,19 +33,19 @@ p.engraver{
 
 /*pseudo classes for <a>element, priority: link-visited-hover-active*/
 a:link {
-    color:lightseagreen;
+    color:#20B2AA; /*lightseagreen*/
     text-decoration:underline;
 }
 a:visited {
-    color:gold;
+    color:#FFD700; /*gold*/
     text-decoration:none;
 }
 a:hover {
-    color:lightgreen;
+    color:#90EE90; /*lightgreen*/
     text-decoration:none;
     font-style: italic;
 }
 a:active {
-    color:white;
+    color:#FFFFFF; /*white*/
     text-decoration:none;
 }
