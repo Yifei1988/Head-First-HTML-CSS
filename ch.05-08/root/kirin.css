@@ -1,6 +1,7 @@
 body{ 
     background-color: black;
     color:lightseagreen;
+    font-size: 18px;
 }
 
 h1,h2{ 
@@ -9,11 +10,7 @@ h1,h2{
 
 h1{
     border-bottom: 1px ridge white;
-    font-size: 16;
-}
-
-h2{
-    font-size: 14;
+    font-size: 120%; /*relative to inherited font-size from its parent element: body*/
 }
 
 p{
@@ -23,23 +20,23 @@ p{
 /*class selector*/
 p.engraver{
     font-family: serif;
-    font-size: 15;
+    font-size: 90%; /*relative to inherited font-size from its parent element: body*/
 }
 
 /*pseudo classes for <a>element, priority: link-visited-hover-active*/
 a:link {
     color:lightseagreen;
     text-decoration:underline;
-    }
-    a:visited {
+}
+a:visited {
     color:gold;
     text-decoration:none;
-    }
-    a:hover {
+}
+a:hover {
     color:lightgreen;
     text-decoration:none;
-    }
-    a:active {
+}
+a:active {
     color:white;
     text-decoration:none;
-    } 
+}

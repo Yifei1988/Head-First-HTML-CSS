@@ -39,5 +39,10 @@ This is my learning-record and codes.
   example: body { font-family: Verdana, Geneva, Arial, sans-serif; }  
   explain: element { font-family: "alternative font A", "alternative font B", "alternative font C", "fontfamilyname"}  
   There are 5 font families: **sans-serif**, **serif**, **monospace**, **cursive** and **fantasy**.  
+2. Fontsize:  
+  absolute: { font-size: ??px; }  
+  relative to inherited size: { font-size: ??%; } or { font-size: ??em; }  
+  keywords: { font-size: small; }  
+
 
 
