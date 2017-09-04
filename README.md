@@ -1,4 +1,4 @@
-# Head-First-HTML-CSS
+ch.08# Head-First-HTML-CSS
 
 This is my learning-record and codes.
 
@@ -33,3 +33,11 @@ This is my learning-record and codes.
   < p class="tea cafe cocktails" >  
   But only the the class selector in ???.css works.(NOT means the last classname in < p > element)  
 5. W3C CSS validator: http://jigsaw.w3.org/css-validator/  
+
+**ch.08 CSS: font**  
+1. Customize the fonts the font-family property:  
+  example: body { font-family: Verdana, Geneva, Arial, sans-serif; }  
+  explain: element { font-family: "alternative font A", "alternative font B", "alternative font C", "fontfamilyname"}  
+  There are 5 font families: **sans-serif**, **serif**, **monospace**, **cursive** and **fantasy**.  
+
+
