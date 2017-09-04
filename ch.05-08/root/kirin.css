@@ -1,11 +1,22 @@
+@font-face{
+    font-family: "Amaranth";
+    src: url("fonts/Amaranth-Regular.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: "Amaranth";
+    src: url("fonts/Amaranth-Italic.woff") format("woff");
+    font-style: italic;
+    font-weight: normal;
+}
+
 body{ 
     background-color: black;
     color:lightseagreen;
+    font-family: "Amaranth", Arial, sans-serif;
     font-size: 18px;
-}
-
-h1,h2{ 
-    font-family: Arial, sans-serif;
 }
 
 h1{
@@ -21,6 +32,7 @@ p{
 p.engraver{
     font-family: serif;
     font-size: 90%; /*relative to inherited font-size from its parent element: body*/
+    font-weight: bolder;
 }
 
 /*pseudo classes for <a>element, priority: link-visited-hover-active*/
@@ -35,6 +47,7 @@ a:visited {
 a:hover {
     color:lightgreen;
     text-decoration:none;
+    font-style: italic;
 }
 a:active {
     color:white;
