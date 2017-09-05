@@ -35,7 +35,7 @@ This is my learning-record and codes.
   But only the the class selector in ???.css works.(NOT means the last classname in < p > element of ???.html)  
 5. W3C CSS validator: http://jigsaw.w3.org/css-validator  
 
-**ch.08 CSS: font**  
+**ch.08 CSS: font & colors**  
 1. Customize the fonts with font-family property:  
   example: **body { font-family: Verdana, Geneva, Arial, sans-serif; }**  
   explain: **element { font-family: "alternative font A", "alternative font B", "alternative font C", "fontfamilyname"}**  
@@ -79,5 +79,7 @@ This is my learning-record and codes.
   example: **{ color: #20B2AA }**  
   **p.s. for 0~255 color-values we use 2 digits hexadecimal number, because 16^2=256**  
 
-
+**ch.09 CSS: Box Model**  
+1. Box Model:  
+  ![box model](readme_pic/box_model.jpg)  
 
