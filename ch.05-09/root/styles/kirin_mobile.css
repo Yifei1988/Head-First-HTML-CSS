@@ -1,13 +1,13 @@
 @font-face{
     font-family: "Amaranth";
-    src: url("fonts/Amaranth-Regular.woff") format("woff");
+    src: url("../fonts/Amaranth-Regular.woff") format("woff");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face{
     font-family: "Amaranth";
-    src: url("fonts/Amaranth-Italic.woff") format("woff");
+    src: url("../fonts/Amaranth-Italic.woff") format("woff");
     font-style: italic;
     font-weight: normal;
 }
@@ -16,17 +16,28 @@ body{
     background-color: #000000; /*black*/
     color: #20B2AA; /*lightseagreen*/
     font-family: "Amaranth", Arial, sans-serif;
-    font-size: 22px;
+    font-size: 16px;
     line-height: 160%; /*the space between each line is 1.6 times the font size*/
 }
 
 h1{
-    border-bottom: 5px double #FFFFFF; /*5px-boder-width white double-line*/
+    border-bottom: 3px double #FFFFFF; /*3px-boder-width white double-line*/
     font-size: 120%; /*relative to inherited font-size from its parent element: body*/
 }
 
 em{
     font-style: italic;
+}
+
+p{
+    text-align: justify;
+}
+
+img{
+    border:0;
+    margin:0;
+    padding:0;
+    max-width:450px;
 }
 
 /*class selector*/
@@ -39,19 +50,18 @@ p.engraver{
 /*id selector*/
 #Description{
     border-color: #FFFFFF; /*white border*/
-    border-width: 5px;
+    border-width: 3px;
     border-style: double;
-    border-top-right-radius: 50px;
+    border-radius: 10px;
     background-color: #C0C0C0; /*silver background*/
-    background-image: url(images/qilin.png);
-    background-repeat: no-repeat;
-    background-position: top right;
-    padding: 30px;
-    padding-right: 300px;
-    margin: 35px;
-    margin-right: 200px;
+    padding: 20px;
+    margin: 25px;
     font-size: 90%;
     font-style: italic;
+}
+
+#Thumbnails{
+    margin-left: 10px;
 }
 
 h1#TOP{
@@ -64,7 +74,7 @@ a:link {
 }
 a:visited {
     color: #FFD700; /*gold*/
-    text-decoration: none;
+    text-decoration-color: black;    
 }
 a:hover {
     color: #90EE90; /*lightgreen*/

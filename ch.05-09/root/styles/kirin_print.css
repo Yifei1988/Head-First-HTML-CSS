@@ -1,0 +1,51 @@
+body{ 
+    background-color: white;
+    color: black;
+    font-family: Times, "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 160%; /*the space between each line is 1.6 times the font size*/
+}
+
+h1{
+    border-bottom: 2px double black; /*2px-boder-width black double-line*/
+    font-size: 120%; /*relative to inherited font-size from its parent element: body*/
+}
+
+em{
+    font-style: italic;
+}
+
+a{
+    color: transparent;
+}
+
+p{
+    text-align: justify;
+}
+
+/*class selector*/
+p.engraver{
+    font-family: serif;
+    font-size: 80%; /*relative to inherited font-size from its parent element: body*/
+    font-weight: bolder;
+}
+
+/*id selector*/
+#Description{
+    border-color: black;
+    border-width: 5px;
+    border-style: double;
+    border-top-right-radius: 50px;
+    padding: 30px;
+    margin: 35px;
+    font-size: 90%;
+    font-style: italic;
+}
+
+#Thumbnails{
+    margin-left: 50px;
+}
+
+h1#TOP{
+    font-size: 200%;
+}

@@ -83,6 +83,9 @@ This is my learning-record and codes.
 1. Box Model:  
   ![box model](readme_pic/box_model.jpg)  
 2. Rules for class and id names:  
-  Class names should begin with a letter, but id names can start with a number or a letter. Both id and class names can contain **letters**, **numbers** and "**_**", but no spaces.  
-  Example: “number1” **OK**, “main_content” **OK**, “header content” **No**  
+  Class names should begin with a letter, but id names can start with a number or a letter. Both id and class names can contain **letters**, **numbers** and "**_**", but **no spaces**.  
+  example: “number1” **OK**, “main_content” **OK**, “header content” **No**  
+3. Using multiple stylesheets:  
+  a. The order of the stylesheets matters, if you use several stylesheets. The < link > elements with stylesheets go from top to bottom in HTML, with the stylesheets **on the bottom** taking precedence.  
+  b. You can add **media** attribute to the < link > element to pick up suitable style files for different devices.  
 
