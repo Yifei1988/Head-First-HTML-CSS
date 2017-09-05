@@ -1,4 +1,4 @@
-ch.08# Head-First-HTML-CSS
+# Head-First-HTML-CSS
 
 This is my learning-record and codes.
 
@@ -82,4 +82,7 @@ This is my learning-record and codes.
 **ch.09 CSS: Box Model**  
 1. Box Model:  
   ![box model](readme_pic/box_model.jpg)  
+2. Rules for class and id names:  
+  Class names should begin with a letter, but id names can start with a number or a letter. Both id and class names can contain **letters**, **numbers** and "**_**", but no spaces.  
+  Example: “number1” **OK**, “main_content” **OK**, “header content” **No**  
 

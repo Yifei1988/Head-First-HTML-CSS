@@ -36,7 +36,8 @@ p.engraver{
     font-weight: bolder;
 }
 
-p.description{
+/*id selector*/
+#Description{
     border-color: #FFFFFF; /*white border*/
     border-width: 5px;
     border-style: double;
@@ -51,6 +52,10 @@ p.description{
     margin-right: 200px;
     font-size: 90%;
     font-style: italic;
+}
+
+h1#TOP{
+    font-size: 200%;
 }
 
 /*pseudo classes for <a>element, priority: link-visited-hover-active (LoVe-HAte)*/
