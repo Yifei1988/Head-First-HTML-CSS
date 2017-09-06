@@ -48,7 +48,7 @@ p.engraver{
 }
 
 /*id selector*/
-#Description{
+#Definition{
     border-color: #FFFFFF; /*white border*/
     border-width: 3px;
     border-style: double;
@@ -60,12 +60,23 @@ p.engraver{
     font-style: italic;
 }
 
+#Description{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 #Thumbnails{
     margin-left: 10px;
 }
 
 h1#TOP{
     font-size: 200%;
+}
+
+#Footer p{
+    font-size: 90%;
+    text-align: right;
+    margin: 30px 60px 30px 0px;
 }
 
 /*pseudo classes for <a>element, priority: link-visited-hover-active (LoVe-HAte)*/

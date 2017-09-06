@@ -89,3 +89,25 @@ This is my learning-record and codes.
   a. The order of the stylesheets matters, if you use several stylesheets. The < link > elements with stylesheets go from top to bottom in HTML, with the stylesheets **on the bottom** taking precedence.  
   b. You can add **media** attribute to the < link > element to pick up suitable style files for different devices.  
 
+**ch.10 div & spans**  
+1. Descendant selectors in CSS:  
+  a. **parent element by element name**  
+  example: **div h2 { color: black; }**  
+  b. **parent element by id**  
+  example: **#elixirs h2 { color: black; }** with **< div id="elixirs" >** in HTML  
+2. Select a direct child in CSS:  
+  example: you could use “**#elixirs > h2**” to select < h2 > **only if it is the direct child** of an element with an id of “elixirs”  
+3. Shoutcut for some CSSs:  
+  a. padding & margin:  
+  ![shoutcut1](readme_pic/shoucut_padding.png)  
+
+  b. border:  
+  ![shoutcut2](readme_pic/shoucut_border.png)  
+
+  c. background:  
+  ![shoutcut3](readme_pic/shoucut_background.png)  
+
+  d. font: be omitted  
+
+  
+
