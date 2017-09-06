@@ -65,14 +65,14 @@ p.engraver{
 
 #Thumbnails{
     margin-left: 100px;
-    margin-right: 600px;
+    margin-right: 20px;
+    border: transparent solid; float:left;
 }
 
 #Thumbnails img{
     border-color: #FFFFFF;
-    border-width: 2px;
-    border-style: dotted;
-    margin-left: 10px;
+    border-width: 3px;
+    border-style: solid;
 }
 
 h1#TOP{
@@ -105,6 +105,10 @@ a:hover {
     color: #90EE90; /*lightgreen*/
     text-decoration: none;
     font-style: italic;
+}
+a:focus {
+    color: indianred;
+    text-decoration: none;
 }
 a:active {
     color: #FFFFFF; /*white*/

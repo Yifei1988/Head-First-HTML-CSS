@@ -6,7 +6,9 @@ This is my learning-record and codes.
 ## Note
 
 **ch.03**  
-1. void elements: < br >, < img >, < link >  
+1.block elements: < p >, < h1 > ~ < h6 >, < blockquote >, < ol >, < ul >, < dl >, < li >, < div >  
+  inline elements: < a >, < em >, < strong >, < q >, < span >  
+  void elements: < br >, < img >, < link >  
 
 **ch.05**  
 1. How to choose image format:  
@@ -89,15 +91,16 @@ This is my learning-record and codes.
   a. The order of the stylesheets matters, if you use several stylesheets. The < link > elements with stylesheets go from top to bottom in HTML, with the stylesheets **on the bottom** taking precedence.  
   b. You can add **media** attribute to the < link > element to pick up suitable style files for different devices.  
 
-**ch.10 div & spans**  
-1. Descendant selectors in CSS:  
+**ch.10 div & span**  
+1. < div > and < span > are all uesed for mark **logical sections**, < div > is block-element, < span > is inline-element.  
+2. Descendant selectors in CSS:  
   a. **parent element by element name**  
   example: **div h2 { color: black; }**  
   b. **parent element by id**  
   example: **#elixirs h2 { color: black; }** with **< div id="elixirs" >** in HTML  
-2. Select a direct child in CSS:  
+3. Select a direct child in CSS:  
   example: you could use “**#elixirs > h2**” to select < h2 > **only if it is the direct child** of an element with an id of “elixirs”  
-3. Shoutcut for some CSSs:  
+4. Shoutcut for some CSSs:  
   a. padding & margin:  
   ![shoutcut1](readme_pic/shoucut_padding.png)  
 
@@ -108,6 +111,9 @@ This is my learning-record and codes.
   ![shoutcut3](readme_pic/shoucut_background.png)  
 
   d. font: be omitted  
+5. Calculate the specificity in Cascading Style Sheets:  
+  ![calculate_specificity](readme_pic/calculate_specificity.png)  
+  sort conflicting rules after their specifity and appears the style with the biggest number.  
 
   
 
