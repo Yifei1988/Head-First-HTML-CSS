@@ -113,17 +113,26 @@ This is my learning-record and codes.
   sort conflicting rules after their specifity and appears the style with the biggest number.  
 6. **Text-align** is a property for block elements that aligns all inline content in the block element, to the center, left or right. It is inherited by any nested block elements.  
 
-**ch.11 Layout**  
+**ch.11 Layout & Table CSS**  
 1. **Liquid Layout**, **Fronzen Layout** and **Jello Layout**  
   Liquid Layout: for main content **{ width: ??px; }**, for float content **{ float: left/right; }**, for footer **{ clear: right/left; }**  
   Fronzen Layout: for allcontent **{ width: ???px; padding-top: ??px; padding-bottom: ??px; }**  
   Jello Layout: for allcontent **{ margin-left: auto; margin-right: auto; }**  
 2. Absolute Positioning  
   **{ position: absolute; ... }**  
-  p.s.: The default value of position is **static**. With static positioning, the element is placed in the normal document flow. Actually there are four position property values: static, absolute, fixed, and relative.  
+  p.s.: The default value of position is **static**. With static positioning, the element is placed in the normal document flow. Actually there are four position property values: **static**, **absolute**, **fixed**, and **relative**.  
+  **Static** is what you get by default if you don’t specify any positioning. It leaves everything to flow as normal into the page.  
+  **Absolute** takes an element completely out of the flow of the page and allows you to position it at an absolute position relative to the closest positioned parent element (which is < html > unless you specify one yourself).  
+  **Fixed** takes an element at a specific, fixed position relative to the browser window.  
+  **Relative** takes an element relative to its containing element by leaving it in the normal flow, and then shifting it over by an amount you specify.  
 3. Use CSS to display table  
   **{ display: table; }**  
   **{ display: table-row; }**  
   **{ display: table-cell; }**  
+  p.s.: It's NOT **HTML table**.  
+4. Review of ch.11:  
+  ![ch.11_layouts](readme_pic/layouts_by_CSS.png)  
+
+
   
 
