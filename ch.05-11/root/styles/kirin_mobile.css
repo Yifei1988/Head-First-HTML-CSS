@@ -16,12 +16,12 @@ body{
     background-color: #000000; /*black*/
     color: #20B2AA; /*lightseagreen*/
     font-family: "Amaranth", Arial, sans-serif;
-    font-size: 22px;
+    font-size: 16px;
     line-height: 160%; /*the space between each line is 1.6 times the font size*/
 }
 
 h1{
-    border-bottom: 5px double #FFFFFF; /*5px-boder-width white double-line*/
+    border-bottom: 3px double #FFFFFF; /*3px-boder-width white double-line*/
     font-size: 120%; /*relative to inherited font-size from its parent element: body*/
 }
 
@@ -31,6 +31,13 @@ em{
 
 p{
     text-align: justify;
+}
+
+img{
+    border:0;
+    margin:0;
+    padding:0;
+    max-width:450px;
 }
 
 /*class selector*/
@@ -43,48 +50,28 @@ p.engraver{
 /*id selector*/
 #Definition{
     border-color: #FFFFFF; /*white border*/
-    border-width: 5px;
+    border-width: 3px;
     border-style: double;
-    border-top-right-radius: 50px;
+    border-radius: 10px;
     background-color: #C0C0C0; /*silver background*/
-    background-image: url(../images/qilin.png);
-    background-repeat: no-repeat;
-    background-position: top right;
-    padding: 30px;
-    padding-right: 300px;
-    margin: 35px;
-    margin-right: 200px;
+    padding: 20px;
+    margin: 25px;
+    color: #000000;
     font-size: 90%;
     font-style: italic;
 }
 
 #Description{
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #Thumbnails{
-    margin-left: 100px;
-    margin-right: 20px;
-    border: transparent solid; float:left;
-}
-
-#Thumbnails img{
-    border-color: #FFFFFF;
-    border-width: 3px;
-    border-style: solid;
+    margin-left: 10px;
 }
 
 h1#TOP{
     font-size: 200%;
-}
-
-#backTop{
-    margin-left: 100px;
-}
-
-div#TOP{
-    text-align: center;
 }
 
 #Footer p{
@@ -93,7 +80,7 @@ div#TOP{
     margin: 30px 60px 30px 0px;
 }
 
-/*pseudo classes for <a> element, priority: link-visited-hover-active (LoVe-HAte)*/
+/*pseudo classes for <a>element, priority: link-visited-hover-active (LoVe-HAte)*/
 a:link {
     color: #20B2AA; /*lightseagreen*/
 }
@@ -106,20 +93,7 @@ a:hover {
     text-decoration: none;
     font-style: italic;
 }
-a:focus {
-    color: indianred;
-    text-decoration: none;
-}
 a:active {
     color: #FFFFFF; /*white*/
     text-decoration: none;
-}
-
-/*pseudo classes with descendant selector*/
-#Thumbnails a:link{
-    color: #000000;
-}
-#Thumbnails a:hover img{
-    border-color: #20B2AA;
-    border-style: solid;
 }

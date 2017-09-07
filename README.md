@@ -100,20 +100,30 @@ This is my learning-record and codes.
   example: **#elixirs h2 { color: black; }** with **< div id="elixirs" >** in HTML  
 3. Select a direct child in CSS:  
   example: you could use “**#elixirs > h2**” to select < h2 > **only if it is the direct child** of an element with an id of “elixirs”  
-4. Shoutcut for some CSSs:  
+4. Shortcut for some CSSs:  
   a. padding & margin:  
-  ![shoutcut1](readme_pic/shoucut_padding.png)  
-
+  ![shortcut1](readme_pic/shortcut_padding.png)  
   b. border:  
-  ![shoutcut2](readme_pic/shoucut_border.png)  
-
+  ![shortcut2](readme_pic/shortcut_border.png)  
   c. background:  
-  ![shoutcut3](readme_pic/shoucut_background.png)  
-
+  ![shortcut3](readme_pic/shortcut_background.png)  
   d. font: be omitted  
 5. Calculate the specificity in Cascading Style Sheets:  
   ![calculate_specificity](readme_pic/calculate_specificity.png)  
   sort conflicting rules after their specifity and appears the style with the biggest number.  
+6. **Text-align** is a property for block elements that aligns all inline content in the block element, to the center, left or right. It is inherited by any nested block elements.  
 
+**ch.11 Layout**  
+1. **Liquid Layout**, **Fronzen Layout** and **Jello Layout**  
+  Liquid Layout: for main content **{ width: ??px; }**, for float content **{ float: left/right; }**, for footer **{ clear: right/left; }**  
+  Fronzen Layout: for allcontent **{ width: ???px; padding-top: ??px; padding-bottom: ??px; }**  
+  Jello Layout: for allcontent **{ margin-left: auto; margin-right: auto; }**  
+2. Absolute Positioning  
+  **{ position: absolute; ... }**  
+  p.s.: The default value of position is **static**. With static positioning, the element is placed in the normal document flow. Actually there are four position property values: static, absolute, fixed, and relative.  
+3. Use CSS to display table  
+  **{ display: table; }**  
+  **{ display: table-row; }**  
+  **{ display: table-cell; }**  
   
 
