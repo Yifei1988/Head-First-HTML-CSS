@@ -133,6 +133,12 @@ This is my learning-record and codes.
 4. Review of ch.11:  
   ![ch.11_layouts](readme_pic/layouts_by_CSS.png)  
 
-
+**ch.12 HTML5**  
+1. New elements in HTML5:  
+  < header >, < footer >, < time >, < aside >, < section >, < article >, < nav >, < video >, ...  
+2. < time > element:  
+  ![time_element](readme_pic/time_element.png)  
+3. < video > element:  
+  ![video_element](readme_pic/video_element.png)  
   
 
