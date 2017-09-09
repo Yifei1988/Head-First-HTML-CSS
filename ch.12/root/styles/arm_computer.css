@@ -2,12 +2,12 @@ body{
     background-color: #FFFFFF;
     /*color: #0091BD; arm_color*/
     font-family: "Amaranth", Arial, sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 120%; /*the space between each line is 1.6 times the font size*/
 }
 
-header {
-    border: dotted 3px #0091BD;
+header, nav, section#main{
+    border: dotted 2px #0091BD;
 }
 header.top {
     margin: 10px 10px 0px 10px;
@@ -18,7 +18,52 @@ header.top img#headerChip {
     float: right;
 }
 
-nav {
-    border: dotted 3px #0091BD;
-    margin: 10px 10px 0px 10px;
+div#tableContainer {
+	display: table;
+	border-spacing: 10px;
+}
+
+div#tableRow {
+	display: table-row;
+}
+div#tableColumn {
+    display: table-column-group;
+}
+
+nav, img#headerChip {
+    margin: 10px 0px 10px 0px;
+}
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+nav ul li {
+	display: inline;
+	padding: 5px 10px 5px 10px;
+}
+nav ul li a:link, nav ul li a:visited, nav ul li a:hover {
+    color: #0091BD;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: #000000;
+}
+nav ul li#selected {
+    border: #70B4D6 solid;
+	background-color: #70B4D6;
+}
+
+section#main {
+    display: table-cell;
+    background: url(images/background.gif);
+    font-size:        105%;
+    padding:          15px;
+    vertical-align: top;
+  }
+
+em {
+    color: #0091BD;
+    font-style: normal;
 }

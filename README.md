@@ -6,7 +6,8 @@ This is my learning-record and codes.
 ## Note
 
 **ch.03**  
-1.block elements: < p >, < h1 > ~ < h6 >, < blockquote >, < ol >, < ul >, < dl >, < li >, < div >  
+1. elements:  
+  block elements: < p >, < h1 > ~ < h6 >, < blockquote >, < ol >, < ul >, < dl >, < li >, < div >  
   inline elements: < a >, < em >, < strong >, < q >, < span >  
   void elements: < br >, < img >, < link >  
 
@@ -44,7 +45,7 @@ This is my learning-record and codes.
   There are 5 font families: **sans-serif**, **serif**, **monospace**, **cursive** and **fantasy**.  
 2. Using **@font-face** to load the fonts:  
   .woff is a font format, which is accepted for most modern browsers.  
-  **example:**  
+  example:  
     **@font-face {**  
        **font-family: "fontname";**  
        **src: url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.woff");**  

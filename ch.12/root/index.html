@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title> KIRIN0 </title>
+        <title> Get To Know ARM </title>
         <link type="text/css" href="styles/arm_computer.css" rel="stylesheet" media="screen and (min-width: 480px)">
         <link type="text/css" href="styles/arm_mobile.css" rel="stylesheet" media="screen and (max-width: 480px)">
         <link type="text/css" href="styles/arm_print.css" rel="stylesheet" media="print">
@@ -10,30 +10,43 @@
     
     <body>
         <header class="top">
-            <img id="headerLogo" src="images/get_to_know_arm_logo.png" alt="GET TO KNOW ARM">
+            <a href="index.html"><img id="headerLogo" src="images/get_to_know_arm_logo.png" alt="GET TO KNOW ARM"></a>
             <img id="headerChip" src="images/arm_chip.png" alt="ARM Chip">
         </header>
 
         <div id="tableContainer">
             <div id="tableRow">
-                <nav>
-                    <a>
-                        arm's OVERVIEW
-                    </a><br>
+                <div id="tableColumn">
+                    <nav>
+                        <ul>
+                            <li id="selected"><a href="index.html">ARCHITECTURE</a></li>
+                            <li ><a href="index.html">HISTORY</a></li>
+                            <li ><a href="index.html">OVERVIEW</a></li>
+                        </ul>
+                    </nav>
 
-                    <a>
-                        arm's HISTORY
-                    </a></br>
+                    <section id="main">
+                        <article>
+                            <h2>ARM architecture</h2>
+                            <p>
+                                <em>ARM</em>, originally <em>Acorn RISC Machine</em>, later <em>Advanced RISC Machine</em>, is a family of reduced instruction set computing (RISC) architectures for computer processors, configured for various environments. British company ARM Holdings develops the architecture and licenses it to other companies, who design their own products that implement one of those architectures‍—‌including systems-on-chips (SoC) and systems-on-modules (SoM) that incorporate memory, interfaces, radios, etc. It also designs cores that implement this instruction set and licenses these designs to a number of companies that incorporate those core designs into their own products.
+                            </p>
+                            <p>
+                                Processors that have a RISC architecture typically require fewer transistors than those with a complex instruction set computing (CISC) architecture (such as the x86 processors found in most personal computers), which improves cost, power consumption, and heat dissipation. These characteristics are desirable for light, portable, battery-powered devices‍—‌including smartphones, laptops and tablet computers, and other embedded systems. For supercomputers, which consume large amounts of electricity, ARM could also be a power-efficient solution.
+                            </p>
+                            <p>
+                                ARM Holdings periodically releases updates to architectures and core designs. All of them support a 32-bit address space (only pre-ARMv3 chips, made before ARM Holdings was formed, as in original Acorn Archimedes, had smaller) and 32-bit arithmetic; instructions for ARM Holdings' cores have 32-bit fixed-length instructions, but later versions of the architecture also support a variable-length instruction set that provides both 32- and 16-bit instructions for improved code density. Some older cores can also provide hardware execution of Java bytecodes. The ARMv8-A architecture, announced in October 2011, adds support for a 64-bit address space and 64-bit arithmetic with its new 32-bit fixed-length instruction set.
+                            </p>
+                            <p>
+                                With over 100 billion ARM processors produced as of 2017, ARM is the most widely used instruction set architecture in terms of quantity produced. Currently, the widely used Cortex cores, older "classic" cores, and specialized SecurCore cores variants are available for each of these to include or exclude optional capabilities.
+                            </p>
 
-                    <a>
-                        arm's ARCHITECTURE
-                    </a>
-                </nav>
-
-                <section id="main">
-                </section>
+                        </article>
+                    </section>
+                </div><!--tableColumn-->
 
                 <aside>
+                    <p>xxx</p>
                 </aside>
             </div><!--tableRow-->
         </div><!--tableContainer-->
