@@ -1,0 +1,24 @@
+body{ 
+    background-color: #FFFFFF;
+    /*color: #0091BD; arm_color*/
+    font-family: "Amaranth", Arial, sans-serif;
+    font-size: 22px;
+    line-height: 120%; /*the space between each line is 1.6 times the font size*/
+}
+
+header {
+    border: dotted 3px #0091BD;
+}
+header.top {
+    margin: 10px 10px 0px 10px;
+    height: 108px;
+}
+  
+header.top img#headerChip {
+    float: right;
+}
+
+nav {
+    border: dotted 3px #0091BD;
+    margin: 10px 10px 0px 10px;
+}
