@@ -26,9 +26,7 @@ div#tableContainer {
 div#tableRow {
 	display: table-row;
 }
-div#tableColumn {
-    display: table-column-group;
-}
+
 
 nav, img#headerChip {
     margin: 10px 0px 10px 0px;
