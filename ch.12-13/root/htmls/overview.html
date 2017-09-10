@@ -3,15 +3,15 @@
     <head>
         <meta charset="UTF-8">
         <title> Get To Know ARM </title>
-        <link type="text/css" href="styles/arm_computer.css" rel="stylesheet" media="screen and (min-width: 480px)">
-        <link type="text/css" href="styles/arm_mobile.css" rel="stylesheet" media="screen and (max-width: 480px)">
-        <link type="text/css" href="styles/arm_print.css" rel="stylesheet" media="print">
+        <link type="text/css" href="../styles/arm_computer.css" rel="stylesheet" media="screen and (min-width: 480px)">
+        <link type="text/css" href="../styles/arm_mobile.css" rel="stylesheet" media="screen and (max-width: 480px)">
+        <link type="text/css" href="../styles/arm_print.css" rel="stylesheet" media="print">
     </head>
     
     <body>
         <header class="top">
-            <a href="index.html"><img id="headerLogo" src="images/get_to_know_arm_logo.png" alt="GET TO KNOW ARM"></a>
-            <img id="headerChip" src="images/arm_chip.png" alt="ARM Chip">
+            <a href="../index.html"><img id="headerLogo" src="../images/get_to_know_arm_logo.png" alt="GET TO KNOW ARM"></a>
+            <img id="headerChip" src="../images/arm_chip.png" alt="ARM Chip">
         </header>
 
         <div id="tableContainer">
@@ -19,27 +19,30 @@
                 <div id="tableMain">
                     <nav>
                         <ul>
-                            <li id="selected"><a href="index.html">ARCHITECTURE</a></li>
-                            <li><a href="htmls/history.html">HISTORY</a></li>
-                            <li><a href="htmls/overview.html">OVERVIEW</a></li>
+                            <li><a href="../index.html">ARCHITECTURE</a></li>
+                            <li><a href="history.html">HISTORY</a></li>
+                            <li id="selected"><a href="overview.html">OVERVIEW</a></li>
                         </ul>
                     </nav>
 
                     <section id="main">
                         <article>
-                            <h2>ARM architecture</h2>
+                            <h2>ARM's overview</h2>
                             <p>
-                                <em>ARM</em>, originally <em>Acorn RISC Machine</em>, later <em>Advanced RISC Machine</em>, is a family of reduced instruction set computing (RISC) architectures for computer processors, configured for various environments. British company ARM Holdings develops the architecture and licenses it to other companies, who design their own products that implement one of those architectures‍—‌including systems-on-chips (SoC) and systems-on-modules (SoM) that incorporate memory, interfaces, radios, etc. It also designs cores that implement this instruction set and licenses these designs to a number of companies that incorporate those core designs into their own products.
+                                ARM Holdings provides a list of vendors who implement ARM cores in their design (application specific standard products (ASSP), microprocessor and microcontrollers).
                             </p>
-                            <p>
-                                Processors that have a RISC architecture typically require fewer transistors than those with a complex instruction set computing (CISC) architecture (such as the x86 processors found in most personal computers), which improves cost, power consumption, and heat dissipation. These characteristics are desirable for light, portable, battery-powered devices‍—‌including smartphones, laptops and tablet computers, and other embedded systems. For supercomputers, which consume large amounts of electricity, ARM could also be a power-efficient solution.
-                            </p>
-                            <p>
-                                ARM Holdings periodically releases updates to architectures and core designs. All of them support a 32-bit address space (only pre-ARMv3 chips, made before ARM Holdings was formed, as in original Acorn Archimedes, had smaller) and 32-bit arithmetic; instructions for ARM Holdings' cores have 32-bit fixed-length instructions, but later versions of the architecture also support a variable-length instruction set that provides both 32- and 16-bit instructions for improved code density. Some older cores can also provide hardware execution of Java bytecodes. The ARMv8-A architecture, announced in October 2011, adds support for a 64-bit address space and 64-bit arithmetic with its new 32-bit fixed-length instruction set.
-                            </p>
-                            <p>
-                                With over 100 billion ARM processors produced as of 2017, ARM is the most widely used instruction set architecture in terms of quantity produced. Currently, the widely used Cortex cores, older "classic" cores, and specialized SecurCore cores variants are available for each of these to include or exclude optional capabilities.
-                            </p>
+                            <table class="tableOverview">
+                                <tr>
+                                    <th>Architecture</th>
+                                    <th>Core bit-width</th>
+                                    <th>Cores</th>
+                                </tr>
+                                <tr>
+                                    <td>ARMv1</td>
+                                    <td>32</td>
+                                    <td>ARM1</td>
+                                </tr>
+                            </table>
                         </article>
                     </section>
                 </div><!--tablemain-->
@@ -55,7 +58,7 @@
                                 <li>core: ARM60</li>
                             </ul>
                         </section>
-                        <img class="hardwareImg" src="images/hardware/3DO.png" alt="3DO-FZ1">
+                        <img class="hardwareImg" src="../images/hardware/3DO.png" alt="3DO-FZ1">
                     </div><br>
                     <div id="Apple Newton" class="hardware">
                         <section class="sectionList floatRight">
@@ -66,7 +69,7 @@
                                 <li>core: ARM610</li>
                             </ul>
                         </section>
-                        <img class="hardwareImg" src="images/hardware/MessagePad.png" alt="Apple MessagePad 100">
+                        <img class="hardwareImg" src="../images/hardware/MessagePad.png" alt="Apple MessagePad 100">
                     </div><br>
                     <div id="GBA" class="hardware">
                         <section class="sectionList floatLeft">
@@ -77,7 +80,7 @@
                                 <li>core: ARM7TDMI</li>
                             </ul>
                         </section>
-                        <img class="hardwareImg" src="images/hardware/GBA.png" alt="GBA">
+                        <img class="hardwareImg" src="../images/hardware/GBA.png" alt="GBA">
                     </div><br>
                     <div id="IPod" class="hardware">
                         <section class="sectionList floatRight">
@@ -88,7 +91,7 @@
                                 <li>core: ARM7TDMI</li>
                             </ul>
                         </section>
-                        <img class="hardwareImg" src="images/hardware/IPod.png" alt="IPod">
+                        <img class="hardwareImg" src="../images/hardware/IPod.png" alt="IPod">
                     </div><br>
                     <div id="NDS" class="hardware">
                         <section class="sectionList floatLeft">
@@ -99,7 +102,7 @@
                                 <li>core: ARM946E-S</li>
                             </ul>
                         </section>
-                        <img class="hardwareImg" src="images/hardware/NDS.png" alt="NDS">
+                        <img class="hardwareImg" src="../images/hardware/NDS.png" alt="NDS">
                     </div><br>
                     <div id="Zune" class="hardware">
                         <section class="sectionList floatRight">
@@ -110,7 +113,7 @@
                                 <li>core: ARM1136JF-S</li>
                             </ul>
                         </section>
-                        <img class="hardwareImg" src="images/hardware/Zune.png" alt="Zune">
+                        <img class="hardwareImg" src="../images/hardware/Zune.png" alt="Zune">
                     </div><br>
                     <div id="Rasperry Pi" class="hardware">
                             <section class="sectionList floatLeft">
@@ -121,7 +124,7 @@
                                     <li>core: ARM1176JZF-S</li>
                                 </ul>
                             </section>
-                            <img class="hardwareImg" src="images/hardware/Raspberry_Pi.png" alt="Raspberry Pi">
+                            <img class="hardwareImg" src="../images/hardware/Raspberry_Pi.png" alt="Raspberry Pi">
                         </div><br>
                     <div id="N3DS" class="hardware">
                         <section class="sectionList floatRight">
@@ -132,7 +135,7 @@
                                 <li>core: ARM11MPcore</li>
                             </ul>
                         </section>
-                        <img class="hardwareImg" src="images/hardware/N3DS.png" alt="N3DS">
+                        <img class="hardwareImg" src="../images/hardware/N3DS.png" alt="N3DS">
                     </div><br>
                     <div id="IPhone" class="hardware">
                         <section class="sectionList floatLeft">
@@ -143,7 +146,7 @@
                                 <li>core: ARM1176JZF-S</li>
                             </ul>
                         </section>
-                        <img class="hardwareImg" src="images/hardware/IPhone.png" alt="IPhone">
+                        <img class="hardwareImg" src="../images/hardware/IPhone.png" alt="IPhone">
                     </div><br>
                     <div id="IPad" class="hardware">
                             <section class="sectionList floatRight">
@@ -154,7 +157,7 @@
                                     <li>core: Cortex-A8</li>
                                 </ul>
                             </section>
-                            <img class="hardwareImg" src="images/hardware/IPad.png" alt="IPad">
+                            <img class="hardwareImg" src="../images/hardware/IPad.png" alt="IPad">
                         </div><br>
                 </div></aside>
             </div><!--tableRow-->

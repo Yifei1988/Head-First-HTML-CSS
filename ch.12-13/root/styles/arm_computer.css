@@ -62,6 +62,7 @@ nav ul li a:hover, nav ul li#selected a:hover {
 section#main {
     background: url(../images/background.gif);
     font-size: 105%;
+    height: 960px;
     padding: 15px;
     vertical-align: top;
 }
@@ -73,7 +74,7 @@ aside {
     padding: 5px 10px 5px 10px;
 }
 #side {
-    height: 1000px;
+    height: 1028px;
     padding: 0px 0px 0px 5px;
     overflow-x:hidden;
     overflow-y:scroll;
@@ -103,8 +104,18 @@ p, ul {
 }
 
 video {
-    margin: auto;
+    margin: auto;/*center the video, "display:block;" is necessary*/
     display:block;
+}
+
+.tableOverview {
+    margin: auto;/*center the table*/
+    border: thin solid #0091BD;
+    border-collapse: collapse;
+    text-align: center;
+}
+.tableOverview th, .tableOverview td {
+    border: thin solid #0091BD;
 }
 
 footer {
