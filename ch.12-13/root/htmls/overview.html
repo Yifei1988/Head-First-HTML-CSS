@@ -27,22 +27,303 @@
 
                     <section id="main">
                         <article>
-                            <h2>ARM's overview</h2>
+                            <h2 id="tableHeader">ARM's overview</h2>
                             <p>
                                 ARM Holdings provides a list of vendors who implement ARM cores in their design (application specific standard products (ASSP), microprocessor and microcontrollers).
                             </p>
                             <table class="tableOverview">
-                                <tr>
+                                <tr id="cellFirstRow">
+                                    <th>Family</th>
                                     <th>Architecture</th>
-                                    <th>Core bit-width</th>
                                     <th>Cores</th>
+                                    <th>Feature</th>
                                 </tr>
                                 <tr>
+                                    <th >ARM1</th>
                                     <td>ARMv1</td>
-                                    <td>32</td>
                                     <td>ARM1</td>
+                                    <td class="celljustify">First implementation</td>
                                 </tr>
+                                <tr class="cellcolor">
+                                    <th rowspan="2">ARM2</th>
+                                    <td>ARMv2</td>
+                                    <td>ARM2</td>
+                                    <td class="celljustify">ARMv2 added the MUL (multiply) instruction</td>
+                                </tr>
+                                <tr class="cellcolor">
+                                    <td>ARMv2a</td>
+                                    <td>ARM250</td>
+                                    <td class="celljustify">Integrated MEMC (MMU), graphics and I/O processor. ARMv2a added the SWP and SWPB (swap) instructions</td>
+                                </tr>
+                                <tr>
+                                    <th>ARM3</th>
+                                    <td>ARMv2a</td>
+                                    <td>ARM3</td>
+                                    <td class="celljustify">First integrated memory cache</td>
+                                </tr>
+                                <tr class="cellcolor">
+                                    <th rowspan="3">ARM6</th>
+                                    <td rowspan="3">ARMv3</td>
+                                    <td>ARM60</td>
+                                    <td class="celljustify">ARMv3 first to support 32-bit memory address space (previously 26-bit).<br>
+                                        ARMv3M first added long multiply instructions (32x32=64).</td>
+                                </tr>
+                                <tr class="cellcolor">
+                                    <td>ARM600</td>
+                                    <td class="celljustify">As ARM60, cache and coprocessor bus (for FPA10 floating-point unit)</td>
+                                </tr>
+                                <tr class="cellcolor">
+                                    <td>ARM610</td>
+                                    <td class="celljustify">As ARM60, cache, no coprocessor bus</td>
+                                </tr>
+                                <tr>
+                                    <th rowspan="3">ARM7</th>
+                                    <td rowspan="3">ARMv3</td>
+                                    <td>ARM700</td>
+                                    <td class="celljustify"></td>
+                                </tr>
+                                <tr>
+                                    <td>ARM710</td>
+                                    <td class="celljustify">As ARM700, no coprocessor bus</td>
+                                </tr>
+                                <tr>
+                                    <td>ARM710a</td>
+                                    <td class="celljustify">As ARM710</td>
+                                </tr>
+                                <tr class="cellcolor">
+                                    <th rowspan="4">ARM7T</th>
+                                    <td rowspan="4">ARMv4T</td>
+                                    <td>ARM7TDMI(-S)</td>
+                                    <td class="celljustify">3-stage pipeline, Thumb, ARMv4 first to drop legacy ARM 26-bit addressing</td>
+                                </tr>
+                                <tr class="cellcolor">
+                                    <td>ARM710T</td>
+                                    <td class="celljustify">As ARM7TDMI, cache</td>
+                                </tr>
+                                <tr class="cellcolor">
+                                    <td>ARM720T</td>
+                                    <td class="celljustify">As ARM7TDMI, cache</td>
+                                </tr>
+                                <tr class="cellcolor">
+                                    <td>ARM740T</td>
+                                    <td class="celljustify">As ARM7TDMI, cache</td>
+                                </tr>
+                                <tr>
+                                    <th>ARM7EJ</th>
+                                    <td>ARMv5TEJ</td>
+                                    <td>ARM7EJ-S</td>
+                                    <td class="celljustify">5-stage pipeline, Thumb, Jazelle DBX, enhanced DSP instructions</td>
+                                </tr>
+                                <tr class="cellcolor">
+                                    <th>ARM8</th>
+                                    <td>ARMv4</td>
+                                    <td>ARM810</td>
+                                    <td class="celljustify">5-stage pipeline, static branch prediction, double-bandwidth memory</td>
+                                </tr>
+                                <tr>
+                                    <th rowspan="4">ARM9T</th>
+                                    <td rowspan="4">ARMv4T</td>
+                                    <td>ARM9TDMI</td>
+                                    <td class="celljustify">5-stage pipeline, Thumb</td>
+                                </tr>
+                                <tr>
+                                    <td>ARM920T</td>
+                                    <td class="celljustify">As ARM9TDMI, cache</td>
+                                </tr>
+                                <tr>
+                                    <td>ARM922T</td>
+                                    <td class="celljustify">As ARM9TDMI, caches</td>
+                                </tr>
+                                <tr>
+                                    <td>ARM940T</td>
+                                    <td class="celljustify">As ARM9TDMI, caches</td>
+                                </tr>
+                                <tr class="cellcolor">
+                                    <th rowspan="5">ARM9E</th>
+                                    <td rowspan="3">ARMv5TE</td>
+                                    <td>ARM946E-S</td>
+                                    <td class="celljustify">Thumb, enhanced DSP instructions, caches</td>
+                                </tr>
+                                <tr class="cellcolor">
+                                    <td>ARM966E-S</td>
+                                    <td class="celljustify">Thumb, enhanced DSP instructions</td>
+                                </tr>
+                                <tr class="cellcolor">
+                                    <td>ARM968E-S</td>
+                                    <td class="celljustify"> class="celljustify"As ARM966E-S</td>
+                                </tr>
+                                <tr class="cellcolor">
+                                    <td>ARMv5TEJ</td>
+                                    <td>ARM926EJ-S</td>
+                                    <td class="celljustify">Thumb, Jazelle DBX, enhanced DSP instructions</td>
+                                </tr>
+                                <tr class="cellcolor">
+                                    <td>ARMv5TE</td>
+                                    <td>ARM996HS</td>
+                                    <td class="celljustify">Clockless processor, as ARM966E-S</td>
+                                </tr>
+                                <tr>
+                                    <th rowspan="3">ARM10E</th>
+                                    <td rowspan="2">ARMv5TE</td>
+                                    <td>ARM1020E</td>
+                                    <td class="celljustify">6-stage pipeline, Thumb, enhanced DSP instructions, (VFP)</td>
+                                </tr>
+                                <tr>
+                                    <td>ARM1022E</td>
+                                    <td class="celljustify">As ARM1020E</td>
+                                </tr>
+                                <tr>
+                                    <td>ARMv5TEJ</td>
+                                    <td>ARM1026EJ-S</td>
+                                    <td class="celljustify">Thumb, Jazelle DBX, enhanced DSP instructions, (VFP)</td>
+                                </tr>
+                                <tr class="cellcolor">
+                                    <th rowspan="4">ARM11</th>
+                                    <td>ARMv6</td>
+                                    <td>ARM1136J(F)-S</td>
+                                    <td class="celljustify">8-stage pipeline, SIMD, Thumb, Jazelle DBX, (VFP), enhanced DSP instructions</td>
+                                </tr>
+                                <tr class="cellcolor">
+                                    <td>ARMv6T2</td>
+                                    <td>ARM1156T2(F)-S</td>
+                                    <td class="celljustify">9-stage pipeline, SIMD, Thumb-2, (VFP), enhanced DSP instructions</td>
+                                </tr>
+                                <tr class="cellcolor">
+                                    <td>ARMv6Z</td>
+                                    <td>ARM1176JZ(F)-S</td>
+                                    <td class="celljustify">As ARM1136EJ(F)-S</td>
+                                </tr>
+                                <tr class="cellcolor">
+                                    <td>ARMv6K</td>
+                                    <td>ARM11MPCore</td>
+                                    <td class="celljustify">As ARM1136EJ(F)-S, 1–4 core SMP</td>
+                                </tr>
+                                <tr>
+                                    <th rowspan="3">SecurCore</th>
+                                    <td>ARMv6-M</td>
+                                    <td>SC000</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>ARMv4T</td>
+                                    <td>SC100</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>ARMv7-M</td>
+                                    <td>SC300</td>
+                                    <td></td>
+                                </tr>
+                                <tr class="cellcolor">
+                                    <th rowspan="6">Cortex-M</th>
+                                    <td rowspan="3">ARMv6-M</td>
+                                    <td>Cortex-M0</td>
+                                    <td class="celljustify">Microcontroller profile, most Thumb + some Thumb-2, hardware multiply instruction (optional small), optional system timer, optional bit-banding memory</td>
+                                </tr>
+                                <tr class="cellcolor">
+                                    <td>Cortex-M0+</td>
+                                    <td class="celljustify">Microcontroller profile, most Thumb + some Thumb-2, hardware multiply instruction (optional small), optional system timer, optional bit-banding memory</td>
+                                </tr>
+                                <tr class="cellcolor">
+                                    <td>Cortex-M1</td>
+                                    <td class="celljustify">Microcontroller profile, most Thumb + some Thumb-2, hardware multiply instruction (optional small), OS option adds SVC / banked stack pointer, optional system timer, no bit-banding memory</td>
+                                </tr>
+                                <tr class="cellcolor">
+                                    <td>ARMv7-M</td>
+                                    <td>Cortex-M3</td>
+                                    <td class="celljustify">Microcontroller profile, Thumb / Thumb-2, hardware multiply and divide instructions, optional bit-banding memory</td>
+                                </tr>
+                                <tr class="cellcolor">
+                                    <td rowspan="2">ARMv7E-M</td>
+                                    <td>Cortex-M4</td>
+                                    <td class="celljustify">Microcontroller profile, Thumb / Thumb-2 / DSP / optional VFPv4-SP single-precision FPU, hardware multiply and divide instructions, optional bit-banding memory</td>
+                                </tr>
+                                <tr class="cellcolor">
+                                    <td>Cortex-M7</td>
+                                    <td class="celljustify">Microcontroller profile, Thumb / Thumb-2 / DSP / optional VFPv5 single and double precision FPU, hardware multiply and divide instructions</td>
+                                </tr>
+                                <tr>
+                                    <th rowspan="4">Cortex-R</th>
+                                    <td rowspan="4">ARMv7-R</td>
+                                    <td>Cortex-R4</td>
+                                    <td class="celljustify">Real-time profile, Thumb / Thumb-2 / DSP / optional VFPv3 FPU, hardware multiply and optional divide instructions, optional parity &amp; ECC for internal buses / cache / TCM, 8-stage pipeline dual-core running lockstep with fault logic</td>
+                                </tr>
+                                <tr>
+                                    <td>Cortex-R5</td>
+                                    <td class="celljustify">Real-time profile, Thumb / Thumb-2 / DSP / optional VFPv3 FPU and precision, hardware multiply and optional divide instructions, optional parity &amp; ECC for internal buses / cache / TCM, 8-stage pipeline dual-core running lock-step with fault logic / optional as 2 independent cores, low-latency peripheral port (LLPP), accelerator coherency port (ACP)</td>
+                                </tr>
+                                <tr>
+                                    <td>Cortex-R7</td>
+                                    <td class="celljustify">Real-time profile, Thumb / Thumb-2 / DSP / optional VFPv3 FPU and precision, hardware multiply and optional divide instructions, optional parity &amp; ECC for internal buses / cache / TCM, 11-stage pipeline dual-core running lock-step with fault logic / out-of-order execution / dynamic register renaming / optional as 2 independent cores, low-latency peripheral port (LLPP), ACP</td>
+                                </tr>
+                                <tr>
+                                    <td>Cortex-R8</td>
+                                    <td class="celljustify">TBD</td>
+                                </tr>
+                                <tr class="cellcolor">
+                                    <th rowspan="8">Cortex-A<br>
+                                        (32-bit)</th>
+                                    <td rowspan="7">ARMv7-A</td>
+                                    <td>Cortex-A5</td>
+                                    <td class="celljustify">Application profile, ARM / Thumb / Thumb-2 / DSP / SIMD / Optional VFPv4-D16 FPU / Optional NEON / Jazelle RCT and DBX, 1–4 cores / optional MPCore, snoop control unit (SCU), generic interrupt controller (GIC), accelerator coherence port (ACP)</td>
+                                </tr>
+                                <tr class="cellcolor">
+                                    <td>Cortex-A7</td>
+                                    <td class="celljustify">Application profile, ARM / Thumb / Thumb-2 / DSP / VFPv4 FPU / NEON / Jazelle RCT and DBX / Hardware virtualization, in-order execution, superscalar, 1–4 SMP cores, MPCore, Large Physical Address Extensions (LPAE), snoop control unit (SCU), generic interrupt controller (GIC), ACP, architecture and feature set are identical to A15, 8–10 stage pipeline, low-power design</td>
+                                </tr>
+                                <tr class="cellcolor">
+                                    <td>Cortex-A8</td>
+                                    <td class="celljustify">Application profile, ARM / Thumb / Thumb-2 / VFPv3 FPU / NEON / Jazelle RCT and DAC, 13-stage superscalar pipeline</td>
+                                </tr>
+                                <tr class="cellcolor">
+                                    <td>Cortex-A9</td>
+                                    <td class="celljustify">Application profile, ARM / Thumb / Thumb-2 / DSP / Optional VFPv3 FPU / Optional NEON / Jazelle RCT and DBX, out-of-order speculative issuesuperscalar, 1–4 SMP cores, MPCore, snoop control unit (SCU), generic interrupt controller (GIC), accelerator coherence port (ACP)</td>
+                                </tr>
+                                <tr class="cellcolor">
+                                    <td>Cortex-A12</td>
+                                    <td class="celljustify">Application profile, ARM / Thumb-2 / DSP / VFPv4 FPU / NEON / Hardware virtualization, out-of-order speculative issue superscalar, 1–4 SMP cores, Large Physical Address Extensions (LPAE), snoop control unit (SCU), generic interrupt controller (GIC), accelerator coherence port (ACP)</td>
+                                </tr>
+                                <tr class="cellcolor">
+                                    <td>Cortex-A15</td>
+                                    <td class="celljustify">Application profile, ARM / Thumb / Thumb-2 / DSP / VFPv4 FPU / NEON / integer divide / fused MAC / Jazelle RCT / hardware virtualization, out-of-order speculative issue superscalar, 1–4 SMP cores, MPCore, Large Physical Address Extensions (LPAE), snoop control unit (SCU), generic interrupt controller (GIC), ACP, 15-24 stage pipeline</td>
+                                </tr>
+                                <tr class="cellcolor">
+                                    <td>Cortex-A17</td>
+                                    <td class="celljustify">Application profile, ARM / Thumb / Thumb-2 / DSP / VFPv4 FPU / NEON / integer divide / fused MAC / Jazelle RCT / hardware virtualization, out-of-order speculative issue superscalar, 1–4 SMP cores, MPCore, Large Physical Address Extensions (LPAE), snoop control unit (SCU), generic interrupt controller (GIC), ACP</td>
+                                </tr>
+                                <tr class="cellcolor">
+                                    <td rowspan="1">ARMv8-A</td>
+                                    <td>Cortex-A32</td>
+                                    <td class="celljustify">Application profile, AArch32, 1–4 SMP cores, TrustZone, NEON advanced SIMD, VFPv4, hardware virtualization, dual issue, in-order pipeline</td>
+                                </tr>
+                                <tr>
+                                    <th rowspan="5">Cortex-A<br>
+                                        (64-bit)</th>
+                                    <td rowspan="5">ARMv8-A</td>
+                                    <td>Cortex-A35</td>
+                                    <td class="celljustify">Application profile, AArch32 and AArch64, 1–4 SMP cores, TrustZone, NEON advanced SIMD, VFPv4, hardware virtualization, dual issue, in-order pipeline</td>
+                                </tr>
+                                <tr>
+                                    <td>Cortex-A53</td>
+                                    <td class="celljustify">Application profile, AArch32 and AArch64, 1–4 SMP cores, TrustZone, NEON advanced SIMD, VFPv4, hardware virtualization, dual issue, in-order pipeline</td>
+                                </tr>
+                                <tr>
+                                    <td>Cortex-A57</td>
+                                    <td class="celljustify">Application profile, AArch32 and AArch64, 1–4 SMP cores, TrustZone, NEON advanced SIMD, VFPv4, hardware virtualization, 3-way superscalar, deeply out-of-order pipeline</td>
+                                </tr>
+                                <tr>
+                                    <td>Cortex-A72</td>
+                                    <td class="celljustify">Application profile, AArch32 and AArch64, 1–4 SMP cores, TrustZone, NEON advanced SIMD, VFPv4, hardware virtualization, 3-way superscalar, deeply out-of-order pipeline</td>
+                                </tr>
+                                <tr>
+                                    <td>Cortex-A73</td>
+                                    <td class="celljustify">Application profile, AArch32 and AArch64, 1–4 SMP cores, TrustZone, NEON advanced SIMD, VFPv4, hardware virtualization, 2-way superscalar, deeply out-of-order pipeline</td>
+                                </tr>
+                                <caption>
+                                    SOURCE: <a href="https://en.wikipedia.org/wiki/List_of_ARM_microarchitectures#ARM_cores" title="List of ARM microarchitectures">WIKI</a>
+                                </caption>
                             </table>
+                            <p id="gotoTableHeader"><a href="#tableHeader" title="go back to table-header">Bcak to Table-Header</a></p>
                         </article>
                     </section>
                 </div><!--tablemain-->

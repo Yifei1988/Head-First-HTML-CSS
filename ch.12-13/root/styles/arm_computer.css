@@ -63,6 +63,7 @@ section#main {
     background: url(../images/background.gif);
     font-size: 105%;
     height: 960px;
+    overflow-y: auto;
     padding: 15px;
     vertical-align: top;
 }
@@ -76,8 +77,8 @@ aside {
 #side {
     height: 1028px;
     padding: 0px 0px 0px 5px;
-    overflow-x:hidden;
-    overflow-y:scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 h2, footer {
@@ -110,12 +111,41 @@ video {
 
 .tableOverview {
     margin: auto;/*center the table*/
+    margin-bottom: 20px;
     border: thin solid #0091BD;
     border-collapse: collapse;
     text-align: center;
+    caption-side: bottom;
 }
 .tableOverview th, .tableOverview td {
     border: thin solid #0091BD;
+}
+
+.cellcolor th, .cellcolor td{
+    background-color: silver;
+}
+.celljustify {
+    text-align: justify;
+    padding: 0px 10px 0px 10px;
+}
+#cellFirstRow {
+    background-color: silver;
+    line-height: 250%;
+}
+caption {
+    margin: 5px;
+}
+#gotoTableHeader {
+    float: right;
+}
+#gotoTableHeader a, caption a {
+    color: #0091BD;
+    text-decoration: none;
+    border: 2px solid #0091BD;
+}
+#gotoTableHeader a:hover, caption a:hover {
+    color: #FFFFFF;
+    background: #0091BD;
 }
 
 footer {
