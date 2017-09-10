@@ -1,12 +1,11 @@
 body{ 
     background-color: #FFFFFF;
-    /*color: #0091BD; arm_color*/
-    font-family: "Amaranth", Arial, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 20px;
     line-height: 120%; /*the space between each line is 1.6 times the font size*/
 }
 
-header, nav, section#main{
+header, nav, section#main, aside{
     border: dotted 2px #0091BD;
 }
 header.top {
@@ -16,20 +15,23 @@ header.top {
   
 header.top img#headerChip {
     float: right;
+    /*margin: 10px 0px 10px 0px;*/
 }
 
 div#tableContainer {
 	display: table;
 	border-spacing: 10px;
 }
-
 div#tableRow {
 	display: table-row;
 }
 
+div#tableMain {
+	display: table-cell;
+}
 
-nav, img#headerChip {
-    margin: 10px 0px 10px 0px;
+nav {
+    margin: 0px 0px 10px 0px;
 }
 nav ul {
 	margin: 0px;
@@ -45,23 +47,37 @@ nav ul li a:link, nav ul li a:visited, nav ul li a:hover {
     text-decoration: none;
     font-weight: bold;
 }
-nav ul li a:hover {
-    color: #000000;
-}
 nav ul li#selected {
-    border: #70B4D6 solid;
-	background-color: #70B4D6;
+    border: #0091BD solid;
+	background-color: #0091BD;
+}
+nav ul li#selected a {
+    color: #FFFFFF;
+}
+nav ul li a:hover, nav ul li#selected a:hover {
+    color: #000000;
 }
 
 section#main {
-    display: table-cell;
-    background: url(images/background.gif);
+    background: url(../images/background.gif);
     font-size:        105%;
     padding:          15px;
     vertical-align: top;
-  }
+}
+
+aside {
+    display: table-cell;
+    width: 400px;
+    vertical-align: top;
+    padding: 5px 10px 5px 10px;
+}
+
+p {
+    text-align: justify;
+}
 
 em {
     color: #0091BD;
     font-style: normal;
+    font-weight: bold;
 }
