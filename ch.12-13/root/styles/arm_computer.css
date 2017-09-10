@@ -67,17 +67,56 @@ section#main {
 
 aside {
     display: table-cell;
-    width: 400px;
     vertical-align: top;
+    width: 400px;
     padding: 5px 10px 5px 10px;
 }
+#side {
+    height: 800px;
+    padding: 0px 0px 0px 5px;
+    overflow-x:hidden;
+    overflow-y:scroll;
+}
 
-p {
+h2, footer {
+    text-align: center;
+}
+p, ul {
     text-align: justify;
+}
+.sectionList {
+    float: left;
+    font-size: 70%;
+    /*border: 2px solid black;*/
+}
+.floatLeft {
+    float: left;
+    padding: 0px 0px 0px 10px;
+}
+.floatRight {
+    float: right;
+    padding: 0px 5px 0px 0px;
+}
+.sectionList ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+footer {
+    background-color: silver;
+    font-size: 60%;
 }
 
 em {
     color: #0091BD;
     font-style: normal;
+    font-weight: bold;
+}
+
+.hardwareImg {
+    max-width: 250px;
+    max-height: 120px;
+}
+.hardwareName {
     font-weight: bold;
 }
