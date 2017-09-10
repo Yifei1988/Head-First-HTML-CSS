@@ -27,7 +27,8 @@ div#tableRow {
 }
 
 div#tableMain {
-	display: table-cell;
+    display: table-cell;
+    vertical-align: top;
 }
 
 nav {
@@ -60,8 +61,8 @@ nav ul li a:hover, nav ul li#selected a:hover {
 
 section#main {
     background: url(../images/background.gif);
-    font-size:        105%;
-    padding:          15px;
+    font-size: 105%;
+    padding: 15px;
     vertical-align: top;
 }
 
@@ -72,7 +73,7 @@ aside {
     padding: 5px 10px 5px 10px;
 }
 #side {
-    height: 800px;
+    height: 1000px;
     padding: 0px 0px 0px 5px;
     overflow-x:hidden;
     overflow-y:scroll;
@@ -87,7 +88,6 @@ p, ul {
 .sectionList {
     float: left;
     font-size: 70%;
-    /*border: 2px solid black;*/
 }
 .floatLeft {
     float: left;
@@ -100,6 +100,11 @@ p, ul {
 .sectionList ul {
     margin: 0px;
     padding: 0px;
+}
+
+video {
+    margin: auto;
+    display:block;
 }
 
 footer {
