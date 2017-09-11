@@ -143,5 +143,14 @@ This is my learning-record and codes.
   ![video_element](readme_pic/video_element.png)  
 
 **ch.13 Table**  
-  
+1. Structure of table cell:  
+  ![tabel_cell](readme_pic/table_cell.png)  
+2. Two ways to solve the border dilemma (The double dotted lines between table cells):  
+  a. **tabel { border-spacing: 0px; }**  
+  b. **table { border-collapse: collapse; }**  
+3. Two ways to give rows an alternating color with CSS:  
+  a. **.cellcolor { background-color: red; }** and then add this class attribute to each row you’d like to color  
+  b. use pseudo-class: **tr: nth-child(even) { background-color: red; }** (even: < tr > 2, < tr > 4, ...; and with odd: < tr > 1, < tr > 3, ...)  
+  c. use pseudo-class: **tr: nth-child(2n) { background-color: red; }** (2n means to select evennumbered < tr >s; and with 2n+1 will select oddnumbered < tr >s);  
+
 
