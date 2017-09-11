@@ -127,6 +127,7 @@ video {
 .celljustify {
     text-align: justify;
     padding: 0px 10px 0px 10px;
+    font-size: 80%;
 }
 #cellFirstRow {
     background-color: silver;
@@ -135,15 +136,13 @@ video {
 caption {
     margin: 5px;
 }
-#gotoTableHeader {
-    float: right;
-}
-#gotoTableHeader a, caption a {
+
+.buttonLink a {
     color: #0091BD;
     text-decoration: none;
     border: 2px solid #0091BD;
 }
-#gotoTableHeader a:hover, caption a:hover {
+.buttonLink a:hover {
     color: #FFFFFF;
     background: #0091BD;
 }
@@ -157,6 +156,10 @@ em {
     color: #0091BD;
     font-style: normal;
     font-weight: bold;
+}
+
+li {
+    list-style-type: square;
 }
 
 .hardwareImg {
