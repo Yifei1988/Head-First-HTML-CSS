@@ -9,7 +9,7 @@ This is my learning-record and codes.
 1. elements:  
   block elements: < p >, < h1 > ~ < h6 >, < blockquote >, < ol >, < ul >, < dl >, < li >, < div >  
   inline elements: < a >, < em >, < strong >, < q >, < span >  
-  void elements: < br >, < img >, < link >  
+  void elements: < br >, < img >, < link >, < input >  
 
 **ch.05**  
 1. How to choose image format:  
@@ -150,11 +150,30 @@ This is my learning-record and codes.
   b. **table { border-collapse: collapse; }**  
 3. Three ways to give rows an alternating color with CSS:  
   a. **.cellcolor { background-color: red; }** and then add this class attribute to each row you’d like to color  
-  b. use pseudo-class: **tr: nth-child(even) { background-color: red; }** (even: < tr > 2, < tr > 4, ...; and with odd: < tr > 1, < tr > 3, ...)  
+  b. use pseudo-class: **tr: nth-child(even) { background-color: red; }** (even: < tr > 2, < tr > 4, …; and with odd: < tr > 1, < tr > 3, …)  
   c. use pseudo-class: **tr: nth-child(2n) { background-color: red; }** (2n means to select evennumbered < tr >s; and with 2n+1 will select oddnumbered < tr >s);  
 4. Make table cells to span more than one row/column:  
-  < td rowspan="?" > and < td colspan="?" >  
+  **< td rowspan="?" >** and **< td colspan="?" >**  
 5. Nested tables:  
-  < td >< table >...< /table >< /td >  
+  **< td >< table >…< /table >< /td >**  
+
+**ch.14 Getting Interactive**  
+1. < form > element:  
+  ![form_element](readme_pic/form_element.png)  
+2. < input > element:  
+  **< input type="text" name="???" >**  
+  **< input type="submit" >**  
+  **< input type="radio" name="???" value="??" >** (use the "**checked**" attribute to specify the by default checked option.)  
+  **< input type="checkbox" name="???" value="??" >** (use the "**checked**" attribute to specify the by default checked option.)  
+  In HTML5 added input types:  
+  **< input type="number" min="??" max="??" >**  
+  **< input type="range" min="??" max="??" step="?" >**  
+  **< input type="color" >**  
+  **< input type="date" >**  
+  **< input type="email" >**  
+  **< input type="tel" >**  
+  **< input type="url" >**  
+
+
 
 
