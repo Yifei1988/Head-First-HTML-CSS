@@ -141,6 +141,10 @@ This is my learning-record and codes.
   ![time_element](readme_pic/time_element.png)  
 3. < video > element:  
   ![video_element](readme_pic/video_element.png)  
+4. codecs for videos:  
+  for mp4: codecs="avc1.42E01E, mp4a.40.2"  
+  for webm: codecs="vp8, vorbis"  
+  for ogg: codecs="theora, vorbis"  
 
 **ch.13 Table**  
 1. Structure of table cell:  
